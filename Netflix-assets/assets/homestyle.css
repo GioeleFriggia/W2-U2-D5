@@ -1,20 +1,13 @@
-/* homestyle.css */
-
 body {
   background-color: rgb(21, 19, 19);
   color: white;
 }
 
 .navbar.navbar-dark {
-  background-color: transparent !important; /* Set the navbar background to transparent */
+  background-color: transparent !important;
 }
 
-/* Optional: Set the navbar background color on hover or focus */
 .navbar.navbar-dark:hover,
 .navbar.navbar-dark:focus {
-  background-color: rgb(
-    21,
-    19,
-    19
-  ) !important; /* Replace #yourBackgroundColor with the desired color code */
+  background-color: rgb(21, 19, 19) !important;
 }
