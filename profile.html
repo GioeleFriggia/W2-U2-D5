@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <title>Editor Profile Netflix</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="./Netflix-assets/assets/profilestyle.css" />
+  </head>
+  <body class="bg-dark text-white">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img
+            src="./Netflix-assets/assets/netflix_logo.png"
+            alt="Netflix"
+            width="70"
+            height="40"
+          />
+        </a>
+      </div>
+    </nav>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 offset-md-3">
+          <h1 class="mt-5">Edit Profile</h1>
+          <div class="card bg-dark mb-3">
+            <div class="card-body">
+              <div class="row">
+                <div class="col-12 col-md-4">
+                  <img
+                    src="https://wallpapers.com/images/hd/netflix-profile-pictures-1000-x-1000-dyrp6bw6adbulg5b.jpg"
+                    alt="Avatar"
+                    class="img-fluid rounded-circle"
+                  />
+                </div>
+                <div class="col-12 col-md-8">
+                  <h4 class="list-group-item bg-secondary text-white">
+                    Stive Student
+                  </h4>
+
+                  <p class="card-text">Language</p>
+                  <div class="dropdown">
+                    <button
+                      type="button"
+                      class="btn btn-dark text-white border border-white rounded-0 btn-sm dropdown-toggle"
+                      data-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      English
+                    </button>
+                    <div class="dropdown-menu">
+                      <!-- Lista delle lingue -->
+                      <a class="dropdown-item" href="#">English</a>
+                      <a class="dropdown-item" href="#">Italian</a>
+                      <a class="dropdown-item" href="#">French</a>
+                      <a class="dropdown-item" href="#">Spanish</a>
+                      <!-- Aggiungi altre lingue se necessario -->
+                    </div>
+                  </div>
+
+                  <hr />
+
+                  <p class="card-text">Maturity Settings:</p>
+                  <a
+                    href="#"
+                    class="list-group-item list-group-item-action bg-secondary text-white"
+                  >
+                    ALL MATURITY RATINGS
+                  </a>
+                  <p class="card-text">
+                    Shows titles of all maturity ratings for this profile.
+                  </p>
+                  <button
+                    type="button"
+                    class="btn btn-transparent text-white border border-white rounded-0 btn-sm dropdown-toggle"
+                    data-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    EDIT
+                  </button>
+                  <hr />
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-12">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-file-check"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M10.854 6.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7.5 8.793l2.646-2.647a.5.5 0 0 1 .708 0"
+                    />
+                    <path
+                      d="M4 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zm0 1h8a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1"
+                    />
+                  </svg>
+                  <p>Autoplay next episode in a series on all devices.</p>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-12">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-file-check"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M10.854 6.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7.5 8.793l2.646-2.647a.5.5 0 0 1 .708 0"
+                    />
+                    <path
+                      d="M4 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zm0 1h8a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1"
+                    />
+                  </svg>
+                  <p>Autoplay previews while browsing on all devices.</p>
+                </div>
+              </div>
+
+              <hr />
+
+              <div>
+                <button
+                  type="button"
+                  class="btn btn-outline-light border border-white rounded-0"
+                >
+                  SALVA
+                </button>
+                <button
+                  type="button"
+                  class="btn btn-outline-light border border-white rounded-0"
+                >
+                  ANNULLA
+                </button>
+                <button
+                  type="button"
+                  class="btn btn-outline-light border border-white rounded-0"
+                >
+                  ELIMINA PROFILO
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  </body>
+</html>
